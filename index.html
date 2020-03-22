@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weekly Budget App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="heading">Weekly Budget</h1>
+        <div class="message">Please Fill In The Whole Form</div>
+
+        <form action="#" id="myForm">
+            <div class="left left-one">
+                <label class="left-label" for="item">Item</label>
+                <input id="item" type="text" name="item" autocomplete="off">
+            </div>
+            <div class="left left-two">
+                <label class="left-label" for="amount">Amount</label>
+                <input id="amount" type="text" name="amount" autocomplete="off">
+            </div>
+            <button type="submit">Add Item</button>
+        </form>
+        <div class="right right-one">
+            <div class="right-item">
+                <label for="budget">Budget</label>
+                <div id="budget"></div>
+            </div>
+            <div class="right-item">
+                <label for="budget-left">Budget Left</label>
+                <div id="budget-left"></div>
+            </div>
+        </div>
+        <div class="list-section">
+            <h3>Weekly Expenses</h3>
+            <ul class="list">
+                <li class="list-item"><span class="item1">Food K100</span><span class="item2">X</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
